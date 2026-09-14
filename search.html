@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<link rel="icon" href="assets/favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>खोज्नुहोस् — KATHA</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="wordmark">KATHA<span>.</span></a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="category.html">समाज</a></li>
+        <li><a href="category.html">प्रेरणा</a></li>
+        <li><a href="category.html">स्वास्थ्य</a></li>
+        <li><a href="category.html">दैनिक जीवन</a></li>
+        <li><a href="category.html">रोचक</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="search.html" class="icon-btn" aria-label="खोज्नुहोस्">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </a>
+      <button class="icon-btn menu-toggle" aria-label="मेनु खोल्नुहोस्" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" aria-hidden="true">
+  <div class="mobile-nav-top">
+    <span class="wordmark">KATHA<span>.</span></span>
+    <button class="icon-btn mobile-nav-close" aria-label="बन्द गर्नुहोस्">
+      <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="category.html">समाज</a></li>
+    <li><a href="category.html">प्रेरणा</a></li>
+    <li><a href="category.html">स्वास्थ्य</a></li>
+    <li><a href="category.html">दैनिक जीवन</a></li>
+    <li><a href="category.html">रोचक</a></li>
+    <li><a href="search.html">खोज्नुहोस्</a></li>
+  </ul>
+</div>
+
+<main>
+
+  <section class="search-hero">
+    <div class="container">
+      <h1>Katha मा खोज्नुहोस्</h1>
+      <form class="search-field" role="search" id="search-form">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" placeholder="कथा, लेखक वा विषय खोज्नुहोस्" aria-label="खोज">
+      </form>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="search-results-meta" id="search-meta" style="display:none;"></div>
+      <div class="story-grid" id="search-grid"></div>
+      <div class="empty-state" id="search-empty" style="display:none;">
+        <h3>कुनै नतिजा फेला परेन</h3>
+        <p>तपाईंले खोज्नुभएको शब्दसँग मिल्ने कुनै कथा भेटिएन। फरक शब्द प्रयोग गरी पुनः प्रयास गर्नुहोस्।</p>
+        <a href="index.html" class="btn btn-secondary">होमपेजमा फर्कनुहोस्</a>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">KATHA<span>.</span></span>
+        <p>मानिस, समाज र दैनिक जीवनका पढ्न लायक कथाहरू। प्रत्येक दिन नयाँ कथा।</p>
+      </div>
+      <div class="footer-col">
+        <h4>विषयहरू</h4>
+        <ul>
+          <li><a href="category.html">समाज</a></li>
+          <li><a href="category.html">प्रेरणा</a></li>
+          <li><a href="category.html">स्वास्थ्य</a></li>
+          <li><a href="category.html">दैनिक जीवन</a></li>
+          <li><a href="category.html">रोचक</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Katha</h4>
+        <ul>
+          <li><a href="#">हाम्रोबारे</a></li>
+          <li><a href="#">सम्पर्क</a></li>
+          <li><a href="#">लेखकहरू</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>फलो गर्नुहोस्</h4>
+        <ul>
+          <li><a href="#" data-social="facebook">Facebook</a></li>
+          <li><a href="#" data-social="instagram">Instagram</a></li>
+          <li><a href="#" data-social="x">X</a></li>
+          <li><a href="#" data-social="whatsapp">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Katha Project. सर्वाधिकार सुरक्षित।</span>
+      <div class="social-links">
+        <a href="#" class="link">गोपनीयता</a>
+        <a href="#" class="link">सर्तहरू</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/site-chrome.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

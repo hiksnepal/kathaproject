@@ -1,0 +1,12 @@
+{
+  "name": "katha-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Katha — Nepali digital storytelling publication",
+  "dependencies": {
+    "@netlify/database": "^1.0.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.2"
+  }
+}

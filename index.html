@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<link rel="icon" href="assets/favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KATHA — दैनिक जीवनका कथाहरू</title>
+<meta name="description" content="Katha — मानिस, समाज र दैनिक जीवनका कथाहरू। पढ्न लायक कथाहरू।">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="wordmark">KATHA<span>.</span></a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="category.html" class="is-active">समाज</a></li>
+        <li><a href="category.html">प्रेरणा</a></li>
+        <li><a href="category.html">स्वास्थ्य</a></li>
+        <li><a href="category.html">दैनिक जीवन</a></li>
+        <li><a href="category.html">रोचक</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="search.html" class="icon-btn" aria-label="खोज्नुहोस्">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </a>
+      <button class="icon-btn menu-toggle" aria-label="मेनु खोल्नुहोस्" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" aria-hidden="true">
+  <div class="mobile-nav-top">
+    <span class="wordmark">KATHA<span>.</span></span>
+    <button class="icon-btn mobile-nav-close" aria-label="बन्द गर्नुहोस्">
+      <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="category.html">समाज</a></li>
+    <li><a href="category.html">प्रेरणा</a></li>
+    <li><a href="category.html">स्वास्थ्य</a></li>
+    <li><a href="category.html">दैनिक जीवन</a></li>
+    <li><a href="category.html">रोचक</a></li>
+    <li><a href="search.html">खोज्नुहोस्</a></li>
+  </ul>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="category-label">समाज</span>
+        <h1>सडक किनारमा चिया बेच्दै, छोराछोरीलाई डाक्टर बनाउने एउटी आमाको कथा</h1>
+        <p class="body-lg">बीस वर्षदेखि एउटै ठाउँमा चिया पसल चलाउँदै आएकी सुनमाया तामाङका लागि बिहानको पाँच बजे सुरु हुने दिन राति दस बजेपछि मात्र सकिन्छ — तर उनको अनुहारमा थकान भन्दा बढी सन्तोष देखिन्छ।</p>
+        <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="btn btn-primary">कथा पढ्नुहोस्</a>
+        <div class="hero-byline">
+          <span class="meta">लेखक: अनिशा राई</span>
+          <span class="meta">·</span>
+          <span class="meta">६ मिनेट पढाइ</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80" alt="चिया पसलमा काम गर्दै एक महिला">
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST STORIES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>ताजा कथाहरू</h2>
+          <p>यही साता प्रकाशित भएका कथाहरू।</p>
+        </div>
+        <a href="category.html" class="read-story view-all">सबै हेर्नुहोस्</a>
+      </div>
+
+      <div class="story-grid" id="latest-stories-grid" data-fallback="static">
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80" alt=""></a>
+          <span class="category-label">दैनिक जीवन</span>
+          <h3><a href="article.html?slug=sadak-kinarma-chiya-becdai">काठमाडौंको बसमा हरेक बिहान भेटिने अनौठो साथीहरू</a></h3>
+          <p class="card-excerpt">एउटै रुटमा दिनहुँ यात्रा गर्ने यात्रुहरूबीच कसरी बन्छ अनौपचारिक भाइचारा, बुझ्ने प्रयास।</p>
+          <span class="meta">५ दिन अगाडि</span>
+        </article>
+
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=80" alt=""></a>
+          <span class="category-label">स्वास्थ्य</span>
+          <h3><a href="article.html?slug=sadak-kinarma-chiya-becdai">निद्रा नपुग्दा शरीरमा के-के हुन्छ, विज्ञहरूको भनाइ</a></h3>
+          <p class="card-excerpt">व्यस्त जीवनशैलीले खोसेको सामान्य कुरा — पर्याप्त निद्रा — फर्काउने केही व्यावहारिक उपायहरू।</p>
+          <span class="meta">२ दिन अगाडि</span>
+        </article>
+
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1516981879613-9f5da904015f?w=800&q=80" alt=""></a>
+          <span class="category-label">प्रेरणा</span>
+          <h3><a href="article.html?slug=sadak-kinarma-chiya-becdai">एक्लै पहाड चढेर आफ्नै गाउँमा पुस्तकालय खोल्ने युवक</a></h3>
+          <p class="card-excerpt">सडक सुविधा नपुगेको ठाउँमा बाँच्दा पनि सपना कसरी सानो हुँदैन, एउटा जीवन्त उदाहरण।</p>
+          <span class="meta">१ हप्ता अगाडि</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIETY -->
+  <section class="section is-tinted">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>समाज</h2>
+          <p>मानिस, समुदाय र वरपरको संसारका कथाहरू।</p>
+        </div>
+        <a href="category.html" class="read-story view-all">सबै हेर्नुहोस्</a>
+      </div>
+      <div class="story-grid">
+        <article class="card card-featured">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&q=80" alt=""></a>
+          <span class="category-label">समाज</span>
+          <h3><a href="article.html?slug=sadak-kinarma-chiya-becdai">भूकम्पपछि फेरि उठेको एउटा सानो बजार, नौ वर्षको कथा</a></h3>
+          <p class="card-excerpt">ध्वस्त भएको बजार क्षेत्र कसरी सामुदायिक प्रयासले बिस्तारै फेरि जीवन्त बन्यो, स्थानीयहरूकै शब्दमा।</p>
+          <span class="meta">३ दिन अगाडि</span>
+        </article>
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80" alt=""></a>
+          <span class="category-label">समाज</span>
+          <h3><a href="article.html?slug=sadak-kinarma-chiya-becdai">महिला उद्यमीहरूले चलाएको सहकारी पसलको कथा</a></h3>
+          <p class="card-excerpt">एउटै गाउँका दस महिलाले सुरु गरेको सानो सहकारीले अहिले कसरी थुप्रै परिवारलाई धानेको छ।</p>
+          <span class="meta">४ दिन अगाडि</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTIVATIONAL -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>प्रेरणा</h2>
+          <p>सानो सुरुवातबाट ठूलो परिवर्तन ल्याएका मानिसहरू।</p>
+        </div>
+        <a href="category.html" class="read-story view-all">सबै हेर्नुहोस्</a>
+      </div>
+      <div class="story-grid cols-4">
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt=""></a>
+          <span class="category-label">प्रेरणा</span>
+          <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">दुई पटक असफल भएपछि पनि नहारेकी व्यवसायी</a></h4>
+        </article>
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt=""></a>
+          <span class="category-label">प्रेरणा</span>
+          <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">५५ वर्षको उमेरमा दौड सिकेकी एक महिला</a></h4>
+        </article>
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80" alt=""></a>
+          <span class="category-label">प्रेरणा</span>
+          <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">सिकाइ कहिल्यै ढिलो हुँदैन भन्ने प्रमाण</a></h4>
+        </article>
+        <article class="card">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=600&q=80" alt=""></a>
+          <span class="category-label">प्रेरणा</span>
+          <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">आफ्नै भाषामा गीत लेख्न थालेकी किशोरी</a></h4>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEALTH + DAILY LIFE (horizontal split) -->
+  <section class="section is-tinted">
+    <div class="container">
+      <div class="story-grid cols-2">
+        <div>
+          <div class="section-header">
+            <div><h2>स्वास्थ्य</h2></div>
+            <a href="category.html" class="read-story view-all">सबै</a>
+          </div>
+          <div class="card card-horizontal" style="margin-bottom:24px;">
+            <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80" alt=""></a>
+            <div>
+              <span class="category-label">स्वास्थ्य</span>
+              <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">बिहानको सामान्य व्यायामले दिनभरको ऊर्जा कसरी बढाउँछ</a></h4>
+              <span class="meta">३ दिन अगाडि</span>
+            </div>
+          </div>
+          <div class="card card-horizontal">
+            <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80" alt=""></a>
+            <div>
+              <span class="category-label">स्वास्थ्य</span>
+              <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">मानसिक स्वास्थ्यबारे खुलेर कुरा गर्ने संस्कृति बन्दै</a></h4>
+              <span class="meta">६ दिन अगाडि</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="section-header">
+            <div><h2>दैनिक जीवन</h2></div>
+            <a href="category.html" class="read-story view-all">सबै</a>
+          </div>
+          <div class="card card-horizontal" style="margin-bottom:24px;">
+            <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?w=600&q=80" alt=""></a>
+            <div>
+              <span class="category-label">दैनिक जीवन</span>
+              <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">भाडाको कोठामा बसेर पनि घर जस्तै बनाउने तरिका</a></h4>
+              <span class="meta">२ दिन अगाडि</span>
+            </div>
+          </div>
+          <div class="card card-horizontal">
+            <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80" alt=""></a>
+            <div>
+              <span class="category-label">दैनिक जीवन</span>
+              <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">काठमाडौंका साना गल्लीका पुराना पसलहरूको कथा</a></h4>
+              <span class="meta">१ हप्ता अगाडि</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITOR'S PICKS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>सम्पादकको छनोट</h2>
+          <p>हाम्रो टिमले विशेष रूपमा सिफारिस गरेका कथाहरू।</p>
+        </div>
+      </div>
+      <div class="story-grid">
+        <div class="card-compact">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1445797216607-8ce2ceb1c19e?w=300&q=80" alt=""></a>
+          <div class="card-body">
+            <span class="category-label">रोचक</span>
+            <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">नेपालको सबैभन्दा सानो हुलाक कार्यालयको कथा</a></h4>
+          </div>
+        </div>
+        <div class="card-compact">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=300&q=80" alt=""></a>
+          <div class="card-body">
+            <span class="category-label">समाज</span>
+            <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">एउटै विद्यालयमा तीन पुस्ताले पढेको कथा</a></h4>
+          </div>
+        </div>
+        <div class="card-compact">
+          <a href="article.html?slug=sadak-kinarma-chiya-becdai" class="card-media"><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=300&q=80" alt=""></a>
+          <div class="card-body">
+            <span class="category-label">प्रेरणा</span>
+            <h4><a href="article.html?slug=sadak-kinarma-chiya-becdai">अपाङ्गता भएपनि साइकल यात्रामा निस्किएकी युवती</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="newsletter-copy">
+        <h2>पढ्न लायक कथाहरू, तपाईंको इनबक्समा।</h2>
+        <p>हरेक हप्ता, Katha का उत्कृष्ट कथाहरू छानेर तपाईंलाई पठाउँछौं।</p>
+      </div>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="इमेल ठेगाना" aria-label="इमेल ठेगाना" required>
+        <button class="btn btn-primary" type="submit">सदस्यता लिनुहोस्</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">KATHA<span>.</span></span>
+        <p>मानिस, समाज र दैनिक जीवनका पढ्न लायक कथाहरू। प्रत्येक दिन नयाँ कथा।</p>
+      </div>
+      <div class="footer-col">
+        <h4>विषयहरू</h4>
+        <ul>
+          <li><a href="category.html">समाज</a></li>
+          <li><a href="category.html">प्रेरणा</a></li>
+          <li><a href="category.html">स्वास्थ्य</a></li>
+          <li><a href="category.html">दैनिक जीवन</a></li>
+          <li><a href="category.html">रोचक</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Katha</h4>
+        <ul>
+          <li><a href="#">हाम्रोबारे</a></li>
+          <li><a href="#">सम्पर्क</a></li>
+          <li><a href="#">लेखकहरू</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>फलो गर्नुहोस्</h4>
+        <ul>
+          <li><a href="#" data-social="facebook">Facebook</a></li>
+          <li><a href="#" data-social="instagram">Instagram</a></li>
+          <li><a href="#" data-social="x">X</a></li>
+          <li><a href="#" data-social="whatsapp">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Katha Project. सर्वाधिकार सुरक्षित।</span>
+      <div class="social-links">
+        <a href="#" class="link">गोपनीयता</a>
+        <a href="#" class="link">सर्तहरू</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/site-chrome.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
